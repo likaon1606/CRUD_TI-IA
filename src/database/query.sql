@@ -1,0 +1,15 @@
+DROP DATABASE crud;
+
+CREATE DATABASE crud;
+
+USE crud;
+
+CREATE TABLE IF NOT EXISTS personas(
+    id INT PRIMARY KEY AUTO_INCREMENT, 
+    name VARCHAR(30) NOT NULL,
+    lastname VARCHAR(30) NOT NULL,
+    age INT NOT NULL,
+    departament VARCHAR(30) NOT NULL
+);
+
+SELECT * FROM personas;
