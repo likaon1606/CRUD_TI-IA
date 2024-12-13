@@ -1,3 +1,10 @@
+.full {
+  color: goldenrod;
+  font-weight: bold;
+  line-height: .1;
+  margin-top: 50px;
+}
+
 @media only screen and (max-width:321px){
 .prueba th{
   font-size: 12px;
