@@ -1,15 +1,15 @@
+DROP DATABASE crud;
 
-CREATE DATABASE archery;
+CREATE DATABASE crud;
 
-USE archery;
+USE crud;
 
-CREATE TABLE IF NOT EXISTS participants(
-	id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(25) NOT NULL,
-    lastname VARCHAR(25) NOT NULL,
-    round INT NOT NULL CHECK (round >= 1),
-	points INT NOT NULL CHECK (points >= 1)
+CREATE TABLE IF NOT EXISTS personas(
+    id INT PRIMARY KEY AUTO_INCREMENT, 
+    name VARCHAR(30) NOT NULL,
+    lastname VARCHAR(30) NOT NULL,
+    age INT NOT NULL,
+    departament VARCHAR(30) NOT NULL
 );
 
-SELECT * FROM participants;
-
+SELECT * FROM personas;

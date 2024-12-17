@@ -1,5 +1,5 @@
 {
-  "name": "archery",
+  "name": "servidor",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "author": "Ariel Fuentes Garcia",
   "license": "ISC",
-  "description": "Proyecto de suma de puntos para arquería y lugares para finalistas",
+  "description": "Servidor CRUD Node.js con Express, MySQL y Handlebars",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
